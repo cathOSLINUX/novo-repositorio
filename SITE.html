@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Do Zero ao Milhão</title>
+<style>
+  :root {
+    --verde-escuro: #0b3d1f;
+    --verde: #16a34a;
+    --verde-claro: #22c55e;
+    --verde-fundo: #052e16;
+    --branco: #ffffff;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: radial-gradient(circle at top, var(--verde-escuro), var(--verde-fundo));
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+  }
+
+  .card {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(34, 197, 94, 0.3);
+    border-radius: 20px;
+    padding: 48px 32px;
+    max-width: 560px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 0 60px rgba(34, 197, 94, 0.15);
+  }
+
+  .emoji {
+    font-size: 48px;
+    margin-bottom: 16px;
+  }
+
+  h1 {
+    color: var(--branco);
+    font-size: 30px;
+    line-height: 1.3;
+    margin-bottom: 12px;
+    letter-spacing: -0.5px;
+  }
+
+  h1 span {
+    color: var(--verde-claro);
+  }
+
+  .subtitle-main {
+    color: #d1fae5;
+    font-size: 16px;
+    margin-bottom: 36px;
+    line-height: 1.5;
+  }
+
+  .btn-cakto {
+    display: block;
+    background: linear-gradient(135deg, var(--verde-claro), var(--verde));
+    color: var(--branco);
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 19px;
+    padding: 18px 24px;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(34, 197, 94, 0.4);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    margin-bottom: 18px;
+  }
+
+  .btn-cakto:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 32px rgba(34, 197, 94, 0.55);
+  }
+
+  .btn-cakto small {
+    display: block;
+    font-weight: 400;
+    font-size: 13px;
+    opacity: 0.9;
+    margin-top: 4px;
+  }
+
+  .link-kiwify {
+    display: inline-block;
+    color: #a7f3d0;
+    font-size: 14px;
+    text-decoration: none;
+    border-bottom: 1px dashed rgba(167, 243, 208, 0.5);
+    padding-bottom: 2px;
+    transition: color 0.2s ease;
+  }
+
+  .link-kiwify:hover {
+    color: var(--branco);
+  }
+
+  .footer-note {
+    margin-top: 28px;
+    color: #6ee7b7;
+    font-size: 12px;
+    opacity: 0.7;
+  }
+
+  .beneficios {
+    text-align: left;
+    margin: 28px 0 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  .beneficio {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    background: rgba(34, 197, 94, 0.06);
+    border: 1px solid rgba(34, 197, 94, 0.15);
+    border-radius: 10px;
+    padding: 12px 14px;
+  }
+
+  .beneficio .check {
+    color: var(--verde-claro);
+    font-size: 18px;
+    line-height: 1.2;
+    flex-shrink: 0;
+  }
+
+  .beneficio .texto {
+    color: #e5fff0;
+    font-size: 14px;
+    line-height: 1.4;
+  }
+
+  .beneficio .texto strong {
+    color: var(--branco);
+    display: block;
+    font-size: 15px;
+    margin-bottom: 2px;
+  }
+
+  .prova-social {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 28px;
+    flex-wrap: wrap;
+  }
+
+  .stat {
+    text-align: center;
+  }
+
+  .stat .numero {
+    color: var(--verde-claro);
+    font-size: 22px;
+    font-weight: 800;
+    display: block;
+  }
+
+  .stat .label {
+    color: #a7f3d0;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+</style>
+</head>
+<body>
+
+  <div class="card">
+    <div class="emoji">🚀</div>
+    <h1>DO ZERO AO <span>MILHÃO</span></h1>
+    <p class="subtitle-main">O método prático para começar a vender pela internet</p>
+
+    <div class="beneficios">
+      <div class="beneficio">
+        <span class="check">✅</span>
+        <span class="texto">
+          <strong>Passo a passo sem enrolação</strong>
+          Do zero até sua primeira venda, sem precisar de experiência prévia.
+        </span>
+      </div>
+      <div class="beneficio">
+        <span class="check">✅</span>
+        <span class="texto">
+          <strong>Método testado e validado</strong>
+          Estratégia aplicada por quem já vive de vendas online.
+        </span>
+      </div>
+      <div class="beneficio">
+        <span class="check">✅</span>
+        <span class="texto">
+          <strong>Resultado rápido</strong>
+          Estruturado para você conseguir sua 1ª venda em poucos dias de aplicação.
+        </span>
+      </div>
+      <div class="beneficio">
+        <span class="check">✅</span>
+        <span class="texto">
+          <strong>Acesso vitalício e por qualquer dispositivo</strong>
+          Estude no seu tempo, celular ou computador.
+        </span>
+      </div>
+    </div>
+
+    <a href="https://pay.cakto.com.br/3544k5r_1109990" class="btn-cakto">
+      Compre na Cakto
+      <small>Pagamento seguro • Acesso imediato</small>
+    </a>
+
+    <a href="https://pay.kiwify.com.br/ghMrBH8" class="link-kiwify">
+      ou compre na Kiwify
+    </a>
+
+    <p class="footer-note">Comece hoje a construir sua primeira venda online.</p>
+  </div>
+
+</body>
+</html>
+
